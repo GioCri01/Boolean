@@ -1,0 +1,101 @@
+*{box-sizing: border-box;
+margin: 0;
+padding: 0%;}
+    
+    body{
+        background-image: url(background.jpg);
+       background-size: cover;
+       background-repeat: no-repeat;}
+
+       .container{
+           background-color: rgb(000,000,000,0.6) ;
+           border-radius: 50px;
+           margin: auto;
+           height: 100vh;
+           width: 80%;
+           margin-top: 50px;
+          
+          
+           
+       }
+      .logo {
+          width: 250px;
+          margin-top: 50px;
+          
+      }
+      header{
+          width: 20%;
+          margin: auto;
+          
+         
+      }
+
+     .logo-text{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        padding: 10px;
+        font-size: 50px;
+        font-family: 'Times New Roman', Times, serif ;
+        color: rgb(4, 206, 4);
+         
+
+     }
+
+     .menu{
+         border: 1px solid green;
+         width: 80%;
+         height: 40px;
+         background-color: green;
+         position: relative;
+         top: 100px;
+         margin: auto;
+     }
+      
+     .brt{
+         display: inline-block;
+         position:relative;
+         left: 50%;
+         transform: translate(-50%);
+         margin-top: 10px;
+         
+         
+     }
+
+     .brt button{
+         padding: 1px;
+         
+         
+     }
+
+     .mono1,.mono2,.mono3{
+         margin-top: 50px;
+         font-family: 'Times New Roman', Times, serif;
+         color: white;
+         
+     }
+
+     .barra-c1, .barra-c2, .barra-c3{
+         height:30px;
+         background-color: rgb(216, 125, 6);
+         width: 35%;
+         border-radius: 50px;
+         margin-top: 5px;
+        }
+
+       .barra-c2{
+           background-color: turquoise;
+           width: 65%;
+               }
+
+               .barra-c3{
+                   background-color: yellow;
+                   width: 20%;
+               }
+   
+     
+         
+
+
+     
+      
